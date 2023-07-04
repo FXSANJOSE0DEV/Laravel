@@ -9,4 +9,10 @@ use Illuminate\Routing\Controller as BaseController;
 class CartController extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
+    public function Cart()
+    {
+        // ce que fait le controller
+        return view('cart'); // On indique la vue ici
+    }
 }
+
