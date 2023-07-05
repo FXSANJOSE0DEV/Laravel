@@ -17,7 +17,7 @@
         @include('includes.header')
 
         <!-- Section 1 search -->
-       
+
 
         <!-- Section 2 hébergement -->
         <section class="section2" id="Hébergements">
@@ -188,7 +188,7 @@
         </section>
         <!--Footer-->
     </main>
-    
+
       <!--Footer include-->
       @include('includes.footer')
 </body>
