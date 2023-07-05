@@ -1,7 +1,7 @@
 <header>
 <nav class="header">
                 <div class="logo">
-                    <a href="index.html"><img src=".images/logo/Abstract Modern Horse Head Free Logo.png" alt="logo galoper" style="height: 80px;"></a>
+                    <a href="index.html"><img src="{{ asset('assets/images/logo/Abstract Modern Horse Head Free Logo.png')}}" alt="logo galoper" style="height: 80px;"></a>
                 </div>
                 <div class="navigation">
                     <div class="nav1">
