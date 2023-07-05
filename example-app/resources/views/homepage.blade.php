@@ -210,7 +210,7 @@
     </main>
     
       <!--Footer include-->
-      @include('includes.header')
+      @include('includes.footer')
 </body>
 
 </html>
