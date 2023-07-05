@@ -3,10 +3,21 @@
 <head>
     <title>Page Produit</title>
     <link rel="stylesheet" href="{{ asset('/css/css_product_page.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link  href="{{ asset('assets/style.css')}}"rel="stylesheet">
+    <title>Galoper</title>
 
 </head>
 <body>
-<div class="product-container">
+    <div>
+    @include('includes.header')
+    </div>
+
+<section class="section1">
+
+<div class="product-container ">
+    
     <div class="product-box">
         <img src="https://www.equiphorse.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/image_5440.jpg" alt="Image 1">
         <h2>Selle Western 1</h2>
@@ -64,6 +75,9 @@
 
 
 </div>
+@include('includes.footer')
+</section>
+
 </body>
 </html>
 
