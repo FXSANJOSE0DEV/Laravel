@@ -16,6 +16,7 @@
 <main>
     @yield('content')
     @yield('body')
+    @yield('product-details')
 </main>
 
 

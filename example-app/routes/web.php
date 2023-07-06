@@ -16,14 +16,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomeController::class, 'Home']);
+Route::get('/home', [HomeController::class, 'Home']);
 
 
 Route::get('/product/{id}', [ProductController::class, 'ProductId']);
 
 
 
-Route::get('/product', [ProductController::class, 'Product_list']);
+Route::get('/product-list', [ProductController::class, 'Product_list']);
 
 
 Route::get('/cart', [CartController::class, 'Cart']);

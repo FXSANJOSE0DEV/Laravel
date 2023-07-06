@@ -1,4 +1,7 @@
-@extends('layout')
+
+@extends('layouts.layout')
+<!-- Section 1 Navbar -->
+@section('content')
 @section ('title')
 Détail product
 @endsection
