@@ -1,6 +1,9 @@
 @extends('layouts.layout')
 <!-- Section 1 Navbar -->
 @section('content')
+    @section('title')
+        Formulaire
+    @endsection
 <section class="formulair">
     <form>
         <label for="name" class="formulairLabel">Nom :</label>
