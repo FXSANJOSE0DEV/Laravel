@@ -1,9 +1,3 @@
-        body {
-            
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
         .product-container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);

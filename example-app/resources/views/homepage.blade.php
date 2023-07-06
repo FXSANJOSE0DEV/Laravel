@@ -19,8 +19,8 @@
         <!-- Section 1 search -->
 
 
-        <!-- Section 2 hébergement -->
-        <section class="section2" id="Hébergements">
+        <!-- Section 2  -->
+        <section class="section2" id="#">
             <div class="content1">
                 <h2 class="title1"><a href="#">LE MOiS DU PONTALON</a></h2>
                 <div class="card">
