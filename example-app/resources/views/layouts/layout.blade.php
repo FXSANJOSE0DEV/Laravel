@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +16,7 @@
     @yield('content')
     @yield('body')
     @yield('product-details')
+    @yield('cart')
 </main>
 
 
