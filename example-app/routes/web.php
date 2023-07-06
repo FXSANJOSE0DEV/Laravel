@@ -22,7 +22,11 @@ Route::get('/', [HomeController::class, 'Home']);
 Route::get('/product/{id}', [ProductController::class, 'ProductId']);
 
 
+<<<<<<< HEAD
 Route::get('/product-list/', [ProductController::class, 'Product_list']);
+=======
+Route::get('/product', [ProductController::class, 'product-details']);
+>>>>>>> f39fb0a (modif product details)
 
 
 Route::get('/cart', [CartController::class, 'Cart']);

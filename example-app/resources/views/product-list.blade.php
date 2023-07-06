@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @extends('layouts.layout')
 @section('title')
     catalogue
@@ -82,3 +83,7 @@
 @endsection
 
 
+=======
+<?php
+echo "Liste des produits";
+>>>>>>> f39fb0a (modif product details)
