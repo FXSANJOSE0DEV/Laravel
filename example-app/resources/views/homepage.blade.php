@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @extends('layouts.layout')
 <!-- Section 1 Navbar -->
 @section('content')
@@ -179,8 +178,3 @@
     </main>
     @endsection
 </body>
-=======
-<?php
-
-echo "Let's gong";
->>>>>>> f39fb0a (modif product details)

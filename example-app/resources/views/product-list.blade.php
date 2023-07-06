@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2a11ede (Création de la v1 du layout (layout.blade.php).)
+
 @extends('layouts.layout')
 @section('title')
     catalogue
@@ -85,7 +82,4 @@
 @endsection
 
 
-=======
-<?php
-echo "Liste des produits";
->>>>>>> f39fb0a (modif product details)
+
