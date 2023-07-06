@@ -39,7 +39,7 @@
 
             <div class="product-box">
                 <img
-                    src="https://lagrandesellerie.fr/262-large_default/casque-d-equitation-reference-antares-sellier.jpg"
+                    src="https://www.hourvari.fr/243-medium_default/casque-bombe-d-equitation.jpg"
                     alt="Image 3">
                 <h2>Bombe</h2>
                 <p>Description de l'article 3.</p>
