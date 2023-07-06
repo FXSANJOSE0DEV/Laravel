@@ -3,9 +3,9 @@
 @section('content')
 <body>
     <main class="global">
-       
 
-      
+
+
 
         <!-- Section 2  -->
         <section class="section2" id="#">
