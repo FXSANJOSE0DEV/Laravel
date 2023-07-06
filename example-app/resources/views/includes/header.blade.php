@@ -15,8 +15,12 @@
                 <div class="nav1">
                     <a href="/product-list">CATALOGUE</a>
                 </div>
+                <div class="navigation">
+                    <div class="nav1">
+                        <a href="/formulair">CONTACT</a>
+                    </div>
+                </div>
             </div>
-        </div>
     </nav>
 </header>
 <h2 class="titre_pr">Impossible de monter sans culotte… d'équitation évidemment !</h2>
