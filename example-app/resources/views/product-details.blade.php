@@ -10,10 +10,9 @@
             <img
                 src="https://www.laboutiqueducavalier.com/44545-large_default/masque-anti-mouche-anti-uv-cheval-de-trait.jpg"
                 alt="Image ">
-            <h3>Anti-mouche</h3>
+            <h3>Selle Western </h3>
             <p>Prix du produit : 19,99€</p>
-            <p>Masque anti-mouches avec grand filet protecteur éloigné des yeux et du chanfrein grâce à des coutures
-                innovantes</p>
+            <p>La grande selle</p>
 
             <form method="get" action="cart.php">
                 <input type="hidden" name="product_id" value="1">

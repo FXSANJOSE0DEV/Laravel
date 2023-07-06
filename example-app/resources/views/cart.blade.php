@@ -15,7 +15,7 @@
             <th>Total</th>
         </tr>
         <tr>
-            <td>Anti-mouche</td>
+            <td>Selle Western</td>
             <td>19,99€</td>
             <td>1</td>
             <td>19.99</td>
