@@ -22,6 +22,4 @@ class ProductController extends BaseController
         // ce que fait le controller
         return view('product-list'); // On indique la vue ici
     }
-
-
 }

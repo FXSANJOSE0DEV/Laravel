@@ -39,7 +39,11 @@
 
             <div class="product-box">
                 <img
+<<<<<<< HEAD
                     src="https://www.epplejeck.fr/img/casque-d-%C3%A9quitation-royal-matt-harry-s-horse-noir-dor%C3%A9_1500x1500_107770.webp"
+=======
+                    src="https://www.hourvari.fr/243-medium_default/casque-bombe-d-equitation.jpg"
+>>>>>>> lina
                     alt="Image 3">
                 <h2>Bombe</h2>
                 <p>Description de l'article 3.</p>
