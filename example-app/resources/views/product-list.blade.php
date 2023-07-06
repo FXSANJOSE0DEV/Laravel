@@ -1,4 +1,3 @@
-
 @extends('layouts.layout')
 @section('title')
     catalogue
@@ -8,9 +7,9 @@
     <section>
         <div class="product-container">
             <div class="product-box">
-                <img
-                    src="https://www.equiphorse.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/image_5440.jpg"
-                    alt="Image 1">
+                <a href="/product/1"><img
+                        src="https://www.equiphorse.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/image_5440.jpg"
+                        alt="Image 1"></a>
                 <h2>Selle Western 1</h2>
                 <p>Description de l'article 1.</p>
             </div>
