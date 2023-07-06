@@ -1,23 +1,11 @@
-<!DOCTYPE html>
-<html lang="fr-FR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link  href="{{ asset('assets/style.css')}}"rel="stylesheet">
-    <title>Galoper</title>
-</head>
-
+@extends('layouts.layout')
 <!-- Section 1 Navbar -->
-
+@section('content')
 <body>
     <main class="global">
-        @include('includes.header')
+       
 
-        <!-- Section 1 search -->
-
+      
 
         <!-- Section 2  -->
         <section class="section2" id="#">
@@ -188,10 +176,5 @@
         </section>
         <!--Footer-->
     </main>
-
-      <!--Footer include-->
-      @include('includes.footer')
+    @endsection
 </body>
-
-</html>
-
