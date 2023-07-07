@@ -23,7 +23,6 @@ Route::get('/home', [HomeController::class, 'Home']);
 Route::get('/product/{id}', [ProductController::class, 'ProductId']);
 
 
-
 Route::get('/product-list', [ProductController::class, 'Product_list']);
 
 
@@ -32,3 +31,12 @@ Route::get('/cart', [CartController::class, 'Cart']);
 
 Route::get('/formulair', [FormulairController::class, 'formulair']);
 
+
+Route::get('/', function () {
+    return view('Welcome');
+});
+
+Route::get('/dbconnect', function () {
+    return view('dbconnect');
+
+});
