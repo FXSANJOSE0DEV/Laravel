@@ -4,6 +4,8 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\FormulairController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\BackOfficeController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,6 +32,10 @@ Route::get('/cart', [CartController::class, 'Cart']);
 
 
 Route::get('/formulair', [FormulairController::class, 'formulair']);
+
+
+Route::get('/BackOffice', [BackOfficeController::class, 'backoffice'])->name('backoffice');
+
 
 
 Route::get('/', function () {

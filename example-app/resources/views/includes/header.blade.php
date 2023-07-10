@@ -19,9 +19,14 @@
                     <div class="nav1">
                         <a href="/formulair">CONTACT</a>
                     </div>
+                    <div class="navigation">
+                        <div class="nav1">
+                            <a href="/BackOffice">BACKOFFICE</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+            </div>
     </nav>
 
 </header>
