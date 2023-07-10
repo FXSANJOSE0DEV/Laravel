@@ -5,7 +5,7 @@ use App\Http\Controllers\FormulairController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\BackOfficeController;
-
+use
 use Illuminate\Support\Facades\Route;
 
 /*

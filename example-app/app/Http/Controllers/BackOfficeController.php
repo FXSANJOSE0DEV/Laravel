@@ -14,4 +14,18 @@ class BackOfficeController extends BaseController
         // ce que fait le controller
         return view('BackOffice'); // On indique la vue ici
     }
+    public function store(Request $request): RedirectResponse
+    {
+        // Validate the request...
+        $product = Product::create([
+            'name' => '$name',
+            'description' => 'description',
+            'price' => '$price',
+            'weight' => '$weight',
+            'image' => '$image',
+            'quantity' => '$quantity',
+            'available' => '$available',
+            'categorie_id' => '$categorie_id',
+        ]);
+    }
 }

@@ -6,6 +6,7 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\DB;
+use App\Models\Product;
 
 class ProductController extends BaseController
 {
@@ -21,7 +22,7 @@ class ProductController extends BaseController
     public function Product_list()
     {
         // ce que fait le controller
-        $results = DB::select('SELECT * FROM products');
+        $results = Product::all();
 
         foreach ($results as $row) {
             // Traitez chaque ligne de résultat ici

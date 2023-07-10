@@ -8,7 +8,7 @@
 
 
         <h2>Ajouter un nouvel article</h2>
-        <form method="post" action="{{ route('backoffice') }}">
+        <form method="post" action=Models/Product>
             @csrf
             <label for="name">Nom :</label>
             <input type="text" name="name" required><br><br>
