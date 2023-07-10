@@ -1,7 +1,7 @@
 <header>
     <nav class="header">
         <div class="logo">
-            <a href="/home"><img src="{{ asset('assets/images/logo/Abstract Modern Horse Head Free Logo.png')}}"
+            <a href="/home"><img src="{{ asset('assets/images/logo/img.png')}}"
                                  alt="logo galoper" style="height: 80px;"></a>
         </div>
         <div class="navigation">
@@ -21,7 +21,9 @@
                     </div>
                 </div>
             </div>
+        </div>
     </nav>
+
 </header>
 {{--<h2 class="titre_pr">Impossible de monter sans culotte… d'équitation évidemment !</h2>--}}
 {{--<section class="section1">--}}
