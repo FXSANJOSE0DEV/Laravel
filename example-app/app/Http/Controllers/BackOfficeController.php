@@ -9,13 +9,15 @@ use Illuminate\Routing\Controller as BaseController;
 
 class BackOfficeController extends BaseController
 {
-    public function BackOffice()
+    public function backOffice()
     {
         // ce que fait le controller
         return view('BackOffice'); // On indique la vue ici
     }
     public function store(Request $request): RedirectResponse
     {
+
+        dd($data);
         // Validate the request...
         $product = Product::create([
             'name' => '$name',

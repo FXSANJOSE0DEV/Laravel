@@ -11,7 +11,7 @@ class HomeController extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
 
-    public function Home()
+    public function home()
     {
         // ce que fait le controller
         $results = DB::select('SELECT * FROM products');

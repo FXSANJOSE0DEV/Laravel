@@ -10,16 +10,16 @@ use App\Models\Product;
 
 class ProductController extends BaseController
 {
-    use AuthorizesRequests, ValidatesRequests;
 
-    public function ProductId(string $id)
+
+    public function productid(string $id)
     {
 
         // ce que fait le controller
         return view('product-details',['id'=>$id]); // On indique la vue ici
     }
 
-    public function Product_list()
+    public function product_list()
     {
         // ce que fait le controller
         $results = Product::all();
