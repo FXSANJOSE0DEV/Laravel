@@ -38,7 +38,9 @@
             <input type="number" name="categorie_id" required><br><br>
 
             <input type="submit" name="submit" value="Ajouter l'article">
-            </form>
+            <input type="submit" name="submit" value="Mettre à jour l'article">
+            <input type="submit" name="submit" value="Supprimer l'article">
+        </form>
 
     </section>
 
