@@ -4,15 +4,15 @@
 @section ('title')
     Détail product
 @endsection
-@section('product-details')
+@section('content')
+
+
     <div class="container">
         <div class="detail_product">
-            <img
-                src="https://www.laboutiqueducavalier.com/44545-large_default/masque-anti-mouche-anti-uv-cheval-de-trait.jpg"
-                alt="Image ">
-            <h3>Selle Western </h3>
-            <p>Prix du produit : 19,99€</p>
-            <p>La grande selle</p>
+            <img src="{{$product->image}}" alt="Image">
+            <h3> {{$product->name}} </h3>
+            <p>{{$product->price}}</p>
+{{--            <p>{{$product->description}}</p>--}}
 
             <form method="get" action="cart.php">
                 <input type="hidden" name="product_id" value="1">
@@ -28,5 +28,6 @@
             </form>
         </div>
     </div>
+
 @endsection
 
