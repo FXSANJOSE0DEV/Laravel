@@ -13,7 +13,7 @@
                 <div class="">
                     <h4 class="information"><a href="#">{{$product->name}}</a></h4>
                     <p class="prace"><strong> {{number_format($product->price,2)}} €</strong></p>
-                    <button>Mise à jour du produit</button>
+                    <a href="{{route('zizicacamixtape',['product'=>$product->id])}}">Mise à jour du produit</a>
                     <button>Supprimer le produit</button>
                 </div>
 
@@ -22,3 +22,4 @@
     </section>
 
 @endsection
+{{--{{route('zizicacamixtape',['product' => $product])}}--}}

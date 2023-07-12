@@ -20,6 +20,10 @@ class backOfficeUpdateController extends BaseController
         return view('BackOfficeUpdate'); // On indique la vue ici
     }
 
+    public function zizicaca(Product $product)
+    {
+        return \view('BackOfficeUpdateProduct')->with('product',$product);
+    }
 
     public function loadlist()
     {
