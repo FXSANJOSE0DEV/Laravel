@@ -16,10 +16,7 @@ class HomeController extends BaseController
         // ce que fait le controller
         $results = DB::select('SELECT * FROM products');
 
-        foreach ($results as $row) {
-            // Traitez chaque ligne de résultat ici
-        }
 
-        return view('homepage', ['results'=>$results]); // On indique la vue ici
+        return view('homepage', ['results' => $results]); // On indique la vue ici
     }
 }

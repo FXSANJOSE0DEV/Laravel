@@ -8,6 +8,7 @@
 
 
         <h2>Ajouter un nouvel article</h2>
+        <h2> <a href="/BackOfficeUpdate"> Mise à jour/supression d'un article</h2>
         <form method="post" action="{{ route('product.store') }}">
             @csrf
             {{--            {{ csrf_field() }}--}}

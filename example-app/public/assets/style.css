@@ -535,7 +535,7 @@ a:hover {
 
 @media (max-width: 1300px) {
     .section2 {
-        flex-direction: column;
+        /*flex-direction: column;*/
         justify-content: center;
     }
 

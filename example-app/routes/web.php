@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\backOfficeUpdateController;
 use App\Http\Controllers\ProfileController;
 //use Illuminate\Support\Facades\Route;
 
@@ -66,6 +67,8 @@ Route::get('/formulair', [FormulairController::class, 'formulair']);
 Route::get('/BackOffice', [BackOfficeController::class, 'backOffice'])->name('backoffice');
 Route::post('/Product/store', [BackOfficeController::class, 'store'])->name('product.store');
 
+Route::get('/BackOfficeUpdate', [BackOfficeUpdateController::class, 'loadlist'])->name('loadlist');
+Route::post('/Product/update', [BackOfficeUpdateController::class, 'update'])->name('product.update');
 
 
 Route::get('/', function () {
