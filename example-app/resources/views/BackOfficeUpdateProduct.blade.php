@@ -37,7 +37,7 @@
             </select><br><br>
 
             <label for="categorie_id">ID de catégorie :</label>
-            <input type="number"  name="categorie_id value="{{$product->categorie_id}}" required><br><br>
+            <input type="number"  name="categorie_id" value="{{$product->categorie_id}}" required><br><br>
 
             <button type="submit" name="submit">Ajouter l'article</button>
             {{--            <input type="submit" name="submit" value="Mettre à jour l'article">--}}
