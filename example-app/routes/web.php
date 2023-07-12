@@ -63,7 +63,9 @@ Route::get('/cart', [CartController::class, 'Cart']);
 Route::get('/formulair', [FormulairController::class, 'formulair']);
 
 
-Route::get('/BackOffice', [BackOfficeController::class, 'backoffice'])->name('backoffice');
+Route::get('/BackOffice', [BackOfficeController::class, 'backOffice'])->name('backoffice');
+Route::post('/Product/store', [BackOfficeController::class, 'store'])->name('product.store');
+
 
 
 Route::get('/', function () {

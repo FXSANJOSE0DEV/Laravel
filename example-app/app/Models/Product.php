@@ -10,6 +10,10 @@ class Product extends Model
         'name', 'description', 'price', 'weight', 'image', 'quantity', 'available', 'categorie_id',
     ];
 
+    public static function create(array $array)
+    {
+    }
+
     public function leformulaire(Request $request)
     {
         $nom = $request->input('nom');

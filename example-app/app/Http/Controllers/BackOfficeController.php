@@ -2,9 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Http\Request;
+use Illuminate\View\View;
 
 
 class BackOfficeController extends BaseController
@@ -14,20 +17,24 @@ class BackOfficeController extends BaseController
         // ce que fait le controller
         return view('BackOffice'); // On indique la vue ici
     }
+
     public function store(Request $request): RedirectResponse
     {
 
-        dd($data);
-        // Validate the request...
+//        dd($request->name);
+
         $product = Product::create([
-            'name' => '$name',
-            'description' => 'description',
-            'price' => '$price',
-            'weight' => '$weight',
-            'image' => '$image',
-            'quantity' => '$quantity',
-            'available' => '$available',
-            'categorie_id' => '$categorie_id',
+            'name' => $request->name,
+            'description' => $request->description,
+            'price' => $request->price,
+            'weight' => $request->weight,
+            'image' => $request->image,
+            'quantity' => $request->quantity,
+            'available' => $request->available,
+            'categorie_id' => $request->categorie_id,
         ]);
+        return view('BackOffice');
     }
+
+
 }
