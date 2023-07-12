@@ -18,12 +18,12 @@ class BackOfficeController extends BaseController
         return view('BackOffice'); // On indique la vue ici
     }
 
-    public function store(Request $request): RedirectResponse
+    public function store(Request $request)
     {
 
 //        dd($request->name);
 
-        $product = Product::create([
+        Product::create([
             'name' => $request->name,
             'description' => $request->description,
             'price' => $request->price,
@@ -33,7 +33,7 @@ class BackOfficeController extends BaseController
             'available' => $request->available,
             'categorie_id' => $request->categorie_id,
         ]);
-        return view('BackOffice');
+        return redirect()->route('backoffice');
     }
 
 
