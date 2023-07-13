@@ -32,6 +32,7 @@ class BackOfficeController extends BaseController
             'quantity' => $request->quantity,
             'available' => $request->available,
             'categorie_id' => $request->categorie_id,
+            'id' => $request->id,
         ]);
         return redirect()->route('backoffice');
     }

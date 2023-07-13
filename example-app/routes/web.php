@@ -68,8 +68,8 @@ Route::get('/BackOffice', [BackOfficeController::class, 'backOffice'])->name('ba
 Route::post('/Product/store', [BackOfficeController::class, 'store'])->name('product.store');
 
 Route::get('/BackOfficeUpdate', [BackOfficeUpdateController::class, 'loadlist'])->name('loadlist');
-Route::post('/Product/update', [BackOfficeUpdateController::class, 'update'])->name('product.update');
-Route::get('/BackOfficeUpdate/{product}', [BackOfficeUpdateController::class, 'zizicaca'])->name('zizicacamixtape');
+Route::put('/Product/update', [BackOfficeUpdateController::class, 'update'])->name('product.update');
+Route::get('/BackOfficeUpdate/{product}', [BackOfficeUpdateController::class, 'zzccmxtp'])->name('zzccmxtp');
 
 
 Route::get('/', function () {

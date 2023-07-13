@@ -20,9 +20,9 @@ class backOfficeUpdateController extends BaseController
         return view('BackOfficeUpdate'); // On indique la vue ici
     }
 
-    public function zizicaca(Product $product)
+    public function zzccmxtp(Product $product)
     {
-        return \view('BackOfficeUpdateProduct')->with('product',$product);
+        return \view('BackOfficeUpdateProduct')->with('product', $product);
     }
 
     public function loadlist()
@@ -35,22 +35,15 @@ class backOfficeUpdateController extends BaseController
     }
 
 
-    public
-    function update(Request $request)
+    public function update(Request $request)
     {
 
 //        dd($request->name);
+        $data = $request->all();
 
-        Product::update([
-            'name' => $request->name,
-            'description' => $request->description,
-            'price' => $request->price,
-            'weight' => $request->weight,
-            'image' => $request->image,
-            'quantity' => $request->quantity,
-            'available' => $request->available,
-            'categorie_id' => $request->categorie_id,
-        ]);
+        $product = Product::findOrFail($data['productId']);
+        $product->update($data);
+
         return redirect()->route('backoffice');
 
 
