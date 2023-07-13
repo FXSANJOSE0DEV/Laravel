@@ -10,20 +10,20 @@
 
             @foreach($results as $product)
                 <form method="POST" action="{{route('product.destroy',['id'=>$product->id])}}">
-                    <div class="">
-                        <h4 class="information"><a href="#">{{$product->name}}</a></h4>
-                        <p class="prace"><strong> {{number_format($product->price,2)}} €</strong></p>
-                        <a href="{{route('zzccmxtp',['product'=>$product->id])}}">
-                            <button>Mise à jour du produit</button>
-                        </a>
+                <div class="">
+                    <h4 class="information"><a href="#">{{$product->name}}</a></h4>
+                    <p class="prace"><strong> {{number_format($product->price,2)}} €</strong></p>
+                    <a href="{{route('zzccmxtp',['product'=>$product->id])}}">
+                        <button>Mise à jour du produit</button>
+                    </a>
 
 
                         @csrf
                         @method('DELETE')
                         <button>Supprimer le produit</button>
+                    </form>
+                </div>
 
-                    </div>
-                </form>
             @endforeach
         </div>
     </section>

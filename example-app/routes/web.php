@@ -71,7 +71,7 @@ Route::post('/Product/store', [BackOfficeController::class, 'store'])->name('pro
 Route::get('/BackOfficeUpdate', [BackOfficeUpdateController::class, 'loadlist'])->name('loadlist');
 Route::put('/Product/update', [BackOfficeUpdateController::class, 'update'])->name('product.update');
 Route::get('/BackOfficeUpdate/{product}', [BackOfficeUpdateController::class, 'zzccmxtp'])->name('zzccmxtp');
-Route::delete('/BackOfficeUpdate/{id}', [BackOfficeUpdateController::class, 'destroy'])->name('product.destroy');
+Route::delete('/BackOfficeDelete/{id}', [BackOfficeUpdateController::class, 'destroy'])->name('product.destroy');
 Route::get('/', function () {
     return view('Welcome');
 });
