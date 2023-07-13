@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\backOfficeUpdateController;
 use App\Http\Controllers\ProfileController;
+
 //use Illuminate\Support\Facades\Route;
 
 /*
@@ -70,13 +71,12 @@ Route::post('/Product/store', [BackOfficeController::class, 'store'])->name('pro
 Route::get('/BackOfficeUpdate', [BackOfficeUpdateController::class, 'loadlist'])->name('loadlist');
 Route::put('/Product/update', [BackOfficeUpdateController::class, 'update'])->name('product.update');
 Route::get('/BackOfficeUpdate/{product}', [BackOfficeUpdateController::class, 'zzccmxtp'])->name('zzccmxtp');
-
-
+Route::delete('/BackOfficeUpdate/{id}', [BackOfficeUpdateController::class, 'destroy'])->name('product.destroy');
 Route::get('/', function () {
     return view('Welcome');
 });
 
-Route::get('/dbconnect', function (){
+Route::get('/dbconnect', function () {
     return view('dbconnect');
 
 });

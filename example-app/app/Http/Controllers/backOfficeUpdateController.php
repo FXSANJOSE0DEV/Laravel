@@ -49,5 +49,14 @@ class backOfficeUpdateController extends BaseController
 
     }
 
+    public function destroy(Product $id)
+    {
+
+        $product = Product::findOrFail($id);
+        $product->destroy();
+
+        return redirect()->route('backofficeUpdate');
+
+    }
 
 }
