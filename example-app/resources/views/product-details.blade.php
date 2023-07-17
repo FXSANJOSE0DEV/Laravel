@@ -6,13 +6,12 @@
 @endsection
 @section('content')
 
-
     <div class="container">
         <div class="detail_product">
             <img src="{{$product->image}}" alt="Image">
             <h3> {{$product->name}} </h3>
-            <p>{{$product->price}}</p>
-{{--            <p>{{$product->description}}</p>--}}
+            <p>{{$product->price}} €</p>
+            {{--            <p>{{$product->description}}</p>--}}
 
             <form method="get" action="cart.php">
                 <input type="hidden" name="product_id" value="1">
