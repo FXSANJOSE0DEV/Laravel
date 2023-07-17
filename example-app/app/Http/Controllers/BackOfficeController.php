@@ -29,7 +29,7 @@ class BackOfficeController extends BaseController
             'quantity' => 'required',
             'available' => 'required',
             'categorie_id' => 'required',
-            'id' => 'required',
+
         ]);
 //        dd($request->name);
 
