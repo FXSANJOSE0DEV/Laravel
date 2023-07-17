@@ -20,7 +20,17 @@ class BackOfficeController extends BaseController
 
     public function store(Request $request)
     {
-
+        $request->validate([
+            'name' => 'required',
+            'description' => 'required',
+            'price' => 'required',
+            'weight' => 'required',
+            'image' => 'required',
+            'quantity' => 'required',
+            'available' => 'required',
+            'categorie_id' => 'required',
+            'id' => 'required',
+        ]);
 //        dd($request->name);
 
         Product::create([

@@ -7,8 +7,9 @@
     <section class="">
 
 
-        <h2>Ajouter un nouvel article</h2>
-        <h2> <a href="/BackOfficeUpdate"> Mise à jour/supression d'un article</h2>
+        <button><h2 class="">Ajouter un nouvel article</h2></button>
+        <button><a href="/BackOfficeUpdate"><h2 classe=""> Mise à jour/supression d'un article</h2></a></button>
+
         <form method="post" action="{{ route('product.store') }}">
             @csrf
             {{--            {{ csrf_field() }}--}}
