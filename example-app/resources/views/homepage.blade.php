@@ -16,20 +16,20 @@
                             <h4 class="information"><a href="#">{{$product->name}}</a></h4>
                             <p class="prace"><strong> {{number_format($product->price,2)}} €</strong></p>
                             <div class="space">
-{{--                                                                <i class="fa-solid fa-star cheked"></i>--}}
-{{--                                                                <i class="fa-solid fa-star cheked"></i>--}}
-{{--                                                                <i class="fa-solid fa-star cheked"></i>--}}
-{{--                                                                <i class="fa-solid fa-star cheked"></i>--}}
-{{--                                                                <i class="fa-solid fa-star cheked2"></i>--}}
+                                {{--                                                                <i class="fa-solid fa-star cheked"></i>--}}
+                                {{--                                                                <i class="fa-solid fa-star cheked"></i>--}}
+                                {{--                                                                <i class="fa-solid fa-star cheked"></i>--}}
+                                {{--                                                                <i class="fa-solid fa-star cheked"></i>--}}
+                                {{--                                                                <i class="fa-solid fa-star cheked2"></i>--}}
                             </div>
                         </a>
                     </div>
-    @endforeach
+                @endforeach
 
-                </div>
-            </section>
-            <!--Footer-->
-        </main>
+            </div>
+        </section>
+        <!--Footer-->
+    </main>
 
     </body>
-    @endsection
+@endsection
