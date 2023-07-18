@@ -1,6 +1,7 @@
 @extends('layouts.layout')
 <!-- Section 1 Navbar -->
 @section('content')
+
     @section('title')
         Back Office
     @endsection
@@ -9,6 +10,15 @@
 
         <h2>Ajouter un nouvel article</h2>
         <h2><a href="/BackOfficeUpdate"> Mise à jour d'un article</a></h2>
+        @if ($errors->any())
+            <div class="alert alert-danger py-5 ">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
         <form method="post" action="{{ route('product.update') }}">
 
 

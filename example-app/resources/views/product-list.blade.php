@@ -5,8 +5,8 @@
 @section('body')
     {{--@section('content')--}}
 
-    <section>
-        <div class="product-container">
+    <section class="section2">
+        <div class="content1">
             @foreach($results as $product)
                 <a href="/product/{{$product->id}}" class="product-box">
                     <img
@@ -19,6 +19,21 @@
             @endforeach
 
 
+        </div>
+        <div>
+            <form method="GET" action="{{route('index',['products.index'=>$product->id])}}">
+                <button>Catéguorie 1</button>
+            </form>
+        </div>
+        <div>
+            <form method="GET" action="{{route('index',['products.index'=>$product->id])}}">
+                <button>Catéguorie 2</button>
+            </form>
+        </div>
+        <div>
+            <form method="GET" action="{{route('index',['products.index'=>$product->id])}}">
+                <button>Catéguorie 3</button>
+            </form>
         </div>
     </section>
 

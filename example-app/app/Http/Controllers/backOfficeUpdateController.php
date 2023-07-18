@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Product;
+use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
@@ -34,9 +35,35 @@ class backOfficeUpdateController extends BaseController
         return view('BackOfficeUpdate', ['results' => $results]); // On indique la vue ici
     }
 
+    public function handleFormSubmission(Request $request)
+    {
+
+
+        // La validation a réussi, procède au traitement supplémentaire
+
+        return redirect()->back()->with('success', 'Le formulaire a été soumis avec succès !');
+    }
 
     public function update(Request $request)
     {
+        $validator = Validator::make($request->all(), [
+            'name' => 'required',
+            'description' => 'required',
+            'price' => 'required|numeric|gte:0',
+            'weight' => 'required',
+            'image' => 'required',
+            'quantity' => 'required',
+            'available' => 'required',
+            'categorie_id' => 'required',
+
+        ]);
+
+        if ($validator->fails()) {
+            // La validation a échoué
+            return redirect()->back()
+                ->withErrors($validator)
+                ->withInput();
+        }
 
 //        dd($request->name);
         $data = $request->all();

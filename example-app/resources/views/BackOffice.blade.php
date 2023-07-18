@@ -1,9 +1,18 @@
 @extends('layouts.layout')
 <!-- Section 1 Navbar -->
+@section('title')
+    Back Office
+@endsection
 @section('content')
-    @section('title')
-        Back Office
-    @endsection
+    @if ($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
     <section class="">
 
 
@@ -12,6 +21,7 @@
 
         <form method="post" action="{{ route('product.store') }}">
             @csrf
+
             {{--            {{ csrf_field() }}--}}
             <label for="name">Nom :</label>
             <input type="text" name="name" id="pname" required><br><br>

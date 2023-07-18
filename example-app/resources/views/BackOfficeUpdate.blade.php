@@ -1,7 +1,15 @@
 @extends('layouts.layout')
 <!-- Section 1 Navbar -->
 @section('content')
-
+    @if ($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
     <!-- Section 2  -->
     <h2 class="title1"><a href="/BackOffice">Ajout d'un article</a></h2>
     <section class="section2" id="#">

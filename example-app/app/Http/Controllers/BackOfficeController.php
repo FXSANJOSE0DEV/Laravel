@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ProductRequest;
 use App\Models\Product;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
@@ -18,12 +19,12 @@ class BackOfficeController extends BaseController
         return view('BackOffice'); // On indique la vue ici
     }
 
-    public function store(Request $request)
+    public function store(ProductRequest $request)
     {
         $request->validate([
             'name' => 'required',
             'description' => 'required',
-            'price' => 'required',
+            'price' => 'required|numeric|gte:0',
             'weight' => 'required',
             'image' => 'required',
             'quantity' => 'required',

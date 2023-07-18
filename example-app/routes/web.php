@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\backOfficeUpdateController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ProductsController;
 
 //use Illuminate\Support\Facades\Route;
 
@@ -53,6 +54,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/home', [HomeController::class, 'Home']);
 
 
+
+Route::get('/index', [ProductsController::class, 'index'])->name('products.index');
+
+
 Route::get('/product/{id}', [ProductController::class, 'productid']);
 
 
@@ -67,6 +72,7 @@ Route::get('/formulair', [FormulairController::class, 'formulair']);
 
 Route::get('/BackOffice', [BackOfficeController::class, 'backOffice'])->name('backoffice');
 Route::post('/Product/store', [BackOfficeController::class, 'store'])->name('product.store');
+
 
 Route::get('/BackOfficeUpdate', [BackOfficeUpdateController::class, 'loadlist'])->name('loadlist');
 Route::put('/Product/update', [BackOfficeUpdateController::class, 'update'])->name('product.update');
