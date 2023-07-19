@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="beb82b0f-ac5a-4d4a-a764-023142bc78d9" name="Changes" comment="Big push because i didnt push in a few years">
+      <change afterPath="$PROJECT_DIR$/.idea/codeception.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_07_2023_09_02_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_06_07_2023_09_02__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Customers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Controllers/Auth/AuthenticatedSessionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Controllers/Auth/ConfirmablePasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Controllers/Auth/EmailVerificationNotificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Controllers/Auth/EmailVerificationPromptController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Controllers/Auth/NewPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Controllers/Auth/PasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Controllers/Auth/PasswordResetLinkController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Controllers/Auth/RegisteredUserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Controllers/Auth/VerifyEmailController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Controllers/ProfileController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Requests/Auth/LoginRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Requests/ProductRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Requests/ProfileUpdateRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Models/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Models/Post2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Models/Products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/OrderProducts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Orders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/ProductsHasOrders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/View/Components/AppLayout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/View/Components/GuestLayout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/database/migrations/2023_07_12_094219_add_timestamp_to_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/auth/confirm-password.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/auth/forgot-password.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/auth/reset-password.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/auth/verify-email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/components/application-logo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/components/auth-session-status.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/components/danger-button.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/components/dropdown-link.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/components/dropdown.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/components/input-error.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/components/input-label.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/components/modal.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/components/nav-link.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/components/primary-button.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/components/responsive-nav-link.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/components/secondary-button.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/components/text-input.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/layouts/guest.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/layouts/navigation.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/profile/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/profile/partials/delete-user-form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/profile/partials/update-password-form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/profile/partials/update-profile-information-form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/tests/Feature/Auth/AuthenticationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/tests/Feature/Auth/EmailVerificationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/tests/Feature/Auth/PasswordConfirmationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/tests/Feature/Auth/PasswordResetTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/tests/Feature/Auth/PasswordUpdateTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/tests/Feature/Auth/RegistrationTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/tests/Feature/ProfileTest.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/example-app/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="trichine" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe">
+    <include_path>
+      <path value="$PROJECT_DIR$/example-app/vendor/composer" />
+      <path value="$PROJECT_DIR$/example-app/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/example-app/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/example-app/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/example-app/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/example-app/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/example-app/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/example-app/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/example-app/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/example-app/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/example-app/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/example-app/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/example-app/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/example-app/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/example-app/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/example-app/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/example-app/vendor/league/config" />
+      <path value="$PROJECT_DIR$/example-app/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/example-app/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/example-app/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/example-app/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/example-app/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/example-app/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/example-app/vendor/spatie/backtrace" />
+      <path value="$PROJECT_DIR$/example-app/vendor/spatie/flare-client-php" />
+      <path value="$PROJECT_DIR$/example-app/vendor/spatie/ignition" />
+      <path value="$PROJECT_DIR$/example-app/vendor/spatie/laravel-ignition" />
+      <path value="$PROJECT_DIR$/example-app/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/example-app/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/example-app/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/example-app/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/example-app/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/example-app/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/example-app/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/example-app/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/example-app/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/example-app/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/example-app/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/example-app/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/example-app/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/example-app/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/example-app/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/example-app/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/example-app/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/example-app/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/example-app/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/example-app/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/example-app/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/example-app/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/example-app/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/example-app/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/example-app/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/example-app/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/example-app/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/example-app/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/example-app/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/example-app/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/example-app/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/example-app/vendor/laravel/breeze" />
+      <path value="$PROJECT_DIR$/example-app/vendor/laracademy/generators" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2S9YD91K2tcYAg6yvEtjfguCQah" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/francois-xavier.sanj/Documents/Laravel/example-app/resources/views&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\francois-xavier.sanj\Documents\Laravel\example-app\resources\views" />
+      <recent name="C:\Users\francois-xavier.sanj\Documents\Laravel\example-app\resources\views\profile" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\francois-xavier.sanj\Documents\Laravel\example-app\app\Models" />
+      <recent name="C:\Users\francois-xavier.sanj\Documents\Laravel\example-app\resources\views" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="beb82b0f-ac5a-4d4a-a764-023142bc78d9" name="Changes" comment="" />
+      <created>1688560143650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688560143650</updated>
+      <workItem from="1688560144269" duration="1339000" />
+      <workItem from="1688561524211" duration="4679000" />
+      <workItem from="1688626767179" duration="2792000" />
+      <workItem from="1688630449307" duration="5576000" />
+      <workItem from="1688638274920" duration="11592000" />
+      <workItem from="1688713688176" duration="749000" />
+      <workItem from="1688722261662" duration="8138000" />
+      <workItem from="1688973104423" duration="16234000" />
+      <workItem from="1689060982113" duration="13711000" />
+      <workItem from="1689145343747" duration="9567000" />
+      <workItem from="1689156826277" duration="10739000" />
+      <workItem from="1689231734443" duration="18673000" />
+      <workItem from="1689577189242" duration="11557000" />
+      <workItem from="1689664931920" duration="16426000" />
+      <workItem from="1689752477386" duration="3693000" />
+    </task>
+    <task id="LOCAL-00001" summary="Création de la v1 du layout (layout.blade.php).&#10;Modification du fichier product-list.blade.php.&#10;La page product-list s'affiche mais le css est ko. Il faut le fix avec la partie réaliser par Trichine.">
+      <created>1688634680526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688634680526</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Shift css with trichine's and change the url of the bomb image&#10;Maj css avec celui de trichine et modification de l'url de l'image de la bombe">
+      <created>1688635331994</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688635331994</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Correction des bétises de Lina sur les routes dans le fichier web.php.">
+      <created>1688642448751</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688642448751</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New correction to bomb image link">
+      <created>1688642588875</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688642588875</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding a catalog button to header.php&#10;Add a link to the first product in product-list.blade.php&#10;Add link to logo">
+      <created>1688644903250</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688644903250</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add cart page, modify css file (css_product_page.css)">
+      <created>1688646971402</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688646971402</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added checkboxes for selecting item quantities in the shopping cart page">
+      <created>1688647525080</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688647525080</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added a php function to calculate price based on quantity. Directly in cart.php">
+      <created>1688648186556</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688648186556</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated the php functions in the basket for the get method. Functional, but there's a bug on the items when they're at zero. Plan a fix to display only items that have actually been put in the shopping cart.">
+      <created>1688651851485</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688651851485</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Back to static version of cart page">
+      <created>1688653912491</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688653912491</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Shift item in basket and shift item name on product detail page">
+      <created>1688654071539</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688654071539</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Contact button added to header">
+      <created>1688654928033</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688654928033</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adding a database connection with laravel&#10;-(database.php)&#10;&#10;Retrieve data from database (items, prices, images)&#10;&#10;Add formatnumber function (see homepage.blade)&#10;&#10;&#10;To do : Change urls in database and set item prices to 0">
+      <created>1688734038886</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1688734038886</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Footer modification.&#10;&#10;Modification of the database used in the database.php file (gundam_shop_migration).">
+      <created>1688979084941</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688979084941</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Backoffice view added&#10;Add backoffice route&#10;Add backoffice controller&#10;Create backoffice model&#10;Accessible form with corresponding url">
+      <created>1688995673324</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1688995673324</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Start configuring the form for adding products to the database.">
+      <created>1689000927864</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1689000927864</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Installing breeze&#10;Fix &quot;web.php&quot; file">
+      <created>1689063875664</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1689063875664</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Home page code update (delete unnecessary lines)&#10;Deleting unnecessary php files&#10;removal of capital letters from methods in controllers">
+      <created>1689068720877</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1689068720877</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add links to product details&#10;general code correction">
+      <created>1689085352051</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1689085352051</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Addition of delete and update buttons on the backoffice form">
+      <created>1689086299706</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1689086299706</updated>
+    </task>
+    <task id="LOCAL-00021" summary="correction of routes for form and backoffice page&#10;form correction">
+      <created>1689153652747</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1689153652748</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Functional item addition form">
+      <created>1689155204505</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1689155204505</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Modification of the backofficeupdate page&#10;Add a link&#10;&#10;Change backoffice page link name">
+      <created>1689170324011</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1689170324011</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Product update form">
+      <created>1689173110075</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1689173110075</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Update product update logic.&#10;&#10;The update is now functional">
+      <created>1689235345088</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1689235345088</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Updated suppression function (404 error...)">
+      <created>1689242713474</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1689242713477</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Updated suppression function, workingnow">
+      <created>1689243339955</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1689243339955</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Correction of item modification/deletion page (view)&#10;Added validate function for item add form">
+      <created>1689587192451</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1689587192451</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Deleting a line in the validate function">
+      <created>1689588550232</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1689588550232</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Update product-details.blade.php">
+      <created>1689588851179</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1689588851179</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Corrected a detail in homepage.blade.php that let a comment appear.">
+      <created>1689594085508</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1689594085508</updated>
+    </task>
+    <task id="LOCAL-00032" summary="remise en état du code">
+      <created>1689595501376</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1689595501376</updated>
+    </task>
+    <task id="LOCAL-00033" summary="auth.php">
+      <created>1689770132776</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1689770132776</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="fx" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Shift item in basket and shift item name on product detail page" />
+    <MESSAGE value="Contact button added to header" />
+    <MESSAGE value="Adding a database connection with laravel&#10;-(database.php)&#10;&#10;Retrieve data from database (items, prices, images)&#10;&#10;Add formatnumber function (see homepage.blade)&#10;&#10;&#10;To do : Change urls in database and set item prices to 0" />
+    <MESSAGE value="Footer modification.&#10;&#10;Modification of the database used in the database.php file (gundam_shop_migration)." />
+    <MESSAGE value="Backoffice view added&#10;Add backoffice route&#10;Add backoffice controller&#10;Create backoffice model&#10;Accessible form with corresponding url" />
+    <MESSAGE value="Start configuring the form for adding products to the database." />
+    <MESSAGE value="Installing breeze&#10;Fix &quot;web.php&quot; file" />
+    <MESSAGE value="Home page code update (delete unnecessary lines)&#10;Deleting unnecessary php files&#10;removal of capital letters from methods in controllers" />
+    <MESSAGE value="Add links to product details&#10;general code correction" />
+    <MESSAGE value="Addition of delete and update buttons on the backoffice form" />
+    <MESSAGE value="correction of routes for form and backoffice page&#10;form correction" />
+    <MESSAGE value="Functional item addition form" />
+    <MESSAGE value="Modifying the back office page&#10;Add buttons&#10;Load all items" />
+    <MESSAGE value="Modification of the backofficeupdate page&#10;Add a link&#10;&#10;Change backoffice page link name" />
+    <MESSAGE value="Product update form" />
+    <MESSAGE value="Update product update logic.&#10;&#10;The update is now functional" />
+    <MESSAGE value="Updated suppression function (404 error...)" />
+    <MESSAGE value="Updated suppression function, workingnow" />
+    <MESSAGE value="Correction of item modification/deletion page (view)&#10;Added validate function for item add form" />
+    <MESSAGE value="Deleting a line in the validate function" />
+    <MESSAGE value="Update product-details.blade.php" />
+    <MESSAGE value="Corrected a detail in homepage.blade.php that let a comment appear." />
+    <MESSAGE value="remise en état du code" />
+    <MESSAGE value="auth.php" />
+    <MESSAGE value="Big push because i didnt push in a few years" />
+    <option name="LAST_COMMIT_MESSAGE" value="Big push because i didnt push in a few years" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/example-app/routes/auth.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
@@ -10,9 +11,12 @@ class HomeController extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
 
-    public function Home()
+    public function home()
     {
         // ce que fait le controller
-        return view('homepage'); // On indique la vue ici
+        $results = DB::select('SELECT * FROM products');
+
+
+        return view('homepage', ['results' => $results]); // On indique la vue ici
     }
 }
